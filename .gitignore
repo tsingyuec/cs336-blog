@@ -1,0 +1,31 @@
+# ---- 大体积原始素材（不入库）----
+videos/
+audio/
+frames/
+
+# ---- 字幕抓取工作区 ----
+kedou/
+subs/
+
+# ---- 备份/临时文件 ----
+*.bak
+*.bak_*
+*.part
+*.tmp
+*.log
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- Node ----
+node_modules/
+npm-debug.log*
+
+# ---- 操作系统 ----
+.DS_Store
+Thumbs.db
+desktop.ini
